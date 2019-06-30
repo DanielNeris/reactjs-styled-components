@@ -8,3 +8,8 @@ export const Title = styled.h1`
         font-size: 12px;
     }
 `;
+
+export const TitleSmall = styled(Title)`
+    color: #00f;
+    font-size: 16px;
+`;

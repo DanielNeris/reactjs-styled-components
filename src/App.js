@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Title } from './styles';
+import { Title, TitleSmall } from './styles';
 
 function App() {
   return (
@@ -9,6 +9,8 @@ function App() {
         Hello
         <span> Daniel</span>
       </Title>
+
+      <TitleSmall>Title small</TitleSmall>
     </div>
   );
 }
