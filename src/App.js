@@ -5,7 +5,7 @@ import { Title } from './styles';
 function App() {
   return (
     <div>
-      <Title>
+      <Title fontSize={20}>
         Hello
         <span> Daniel</span>
       </Title>
