@@ -5,7 +5,10 @@ import { Title } from './styles';
 function App() {
   return (
     <div>
-      <Title>Hello</Title>
+      <Title>
+        Hello
+        <span> Daniel</span>
+      </Title>
     </div>
   );
 }
